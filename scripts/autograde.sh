@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc -o student_prog student_code.c
+gcc -o student_prog submissions/student_code.c
 if [ $? -ne 0 ]; then
     echo "Compilation Error"
     exit 1
