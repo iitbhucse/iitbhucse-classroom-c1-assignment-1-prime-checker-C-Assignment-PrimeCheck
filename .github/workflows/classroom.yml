@@ -21,7 +21,7 @@ jobs:
         setup-command: ''
         command: bash scripts/autograde.sh > grade.txt && tail -n 1 grade.txt
         timeout: 10
-        max-score: 5
+        max-score: 6
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
